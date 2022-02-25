@@ -1,0 +1,39 @@
+/*
+body{
+    background-color: #fff;
+    padding-bottom: 5px;
+}*/
+
+body{
+  padding-top: 5vh;
+  background-image: url('../Images/CapitaDoCeara.jpeg');
+  background-size: cover;
+  background-position-y: -200px;
+}
+
+.container {
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fff;
+    height: auto;
+    
+  }
+
+  .navbar {
+    margin: auto;
+    margin: 10px 0px 10px 10px;
+    padding: 5px 0px 5px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+  }
+
+  .navbar-brand{
+    color: #0274b2;
+  }
+
+  img {
+    width:60px;
+    height: 40px;
+  }

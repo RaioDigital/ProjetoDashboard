@@ -1,0 +1,106 @@
+/*Geral*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #323232;
+    border: none;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+input,label{
+    display: block;
+    width: 100%;
+}
+
+textarea:focus input:focus {
+    outline: none;
+}
+
+a{
+    font-size: .8rem;    
+}
+
+a:hover {
+    color: #0274b2;
+}
+
+body{
+    padding-top: 5vh;
+    background-image: url('../Images/CapitaDoCeara.jpeg');
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+/* Formulário */
+
+#login-container {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-top: 20vh;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;*/
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+input:focus{
+    border-bottom: 2px solid #0274b2 ;
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;    
+}
+
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #0274b2;
+    transition: .5s;
+}
